@@ -134,7 +134,7 @@ def game_loop():
                     
                     if kills % SCORE_TO_LEVEL_UP == 0:
                         level += 1
-                        print("Повышение уровня! Текущий уровень:", level) 
+
 
                     
                     new_pig = Pig()
